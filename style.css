@@ -200,7 +200,7 @@ form{
     }
     .navbar-right ul{
         font-size: 7px;
-        gap:5%;
+        gap:20%;
         padding-left: 25%;
         padding:6% 0% 0% 15%;
     }
@@ -229,42 +229,30 @@ form{
         height: 5vh;
         width: 40%;
         margin-top: 1%;
-        border: 2px solid gray;
+        border: 1px solid gray;
     }
-    .user-name{
+    .user-name,.student-id{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    .student-id{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        gap: 5px;
     }
     .email{
-        width: 203%;
-        padding-left: 9%;
+        width: 208%;
+        padding-left: 7.5%;
     }
     .feedback input{
         height: 20vh;
         margin-top: 3%;
-        width: 81.1%;
-        margin-left: 9%;
+        width: 84%;
+        margin-left: 7.5%;
     }
-
-
-
-
-
-
     .footer{
         margin-top: 15%;
         padding-top: 8%;
         display: flex;
-        height: 30vh;
+        height: 20vh;
         width: 100%;
-        
-        
         flex-wrap: wrap;
     }
     .logo,.time-ate,.name-food,.socail-media{
@@ -279,15 +267,20 @@ form{
         margin: auto;
     }
     .logo img{
-        padding: 5% 0% 0% 30%;
+        padding: 5% 0% 0% 0%;
         height: 30%;
     }
     .logo p{
-        padding-left: 25%;
+        padding-left: 0%;
+    }
+    .logo p,.time-ate,.name-food{
+        text-transform: lowercase;
+        font-size: 11px;
     }
     .btn{
         width: 20%;
-        margin-left: 70%;
+        height: 10%;
+        margin-left: 74%;
         margin-top: 5%;
     }
     .user-form h2{
@@ -297,6 +290,17 @@ form{
         align-items: center;
     }
     .feedback input{
-        border: 2px solid gray;
+        border: 1px solid gray;
+    }
+    .socail-media i{
+        margin-top: 5%;
+        font-size: 20px;
+        color: teal;
+        
+    }
+    .socail-media p{
+        padding-left: 0%;
+        width: 100px;
+
     }
 }
