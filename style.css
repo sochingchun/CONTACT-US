@@ -1,0 +1,302 @@
+form{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+/* navbar */
+.navbar{
+    background-color: rgb(34, 37, 37);
+    height: 15vh;
+    display: flex;
+}
+.navbar-left{
+    display: flex;
+    width: 33%;
+    color: white;
+}
+.navbar-left  img{
+    padding-left: 55px;
+    height: 100%;
+}
+.navbar-left p{
+    margin-top: 10%;
+    padding-left: 5%;
+}
+.navbar-right{
+    width: 67%;
+}
+.navbar-right ul{
+    display: flex;
+    padding:2% 0% 0% 15%;
+    gap: 25%;
+}
+.navbar-right ul li{
+    list-style: none;
+}
+.navbar-right ul li a {
+    color: white;
+}
+.navbar-right>ul>li>a:hover{
+    background-color:gray;  
+}
+/* user-name */
+.picture{
+    width: 33.33%;
+    height: 100vh;
+}
+.picture img{
+    padding-top: 5%;
+    padding-left:15% ;
+    height: 76%;
+}
+.user-form{
+    width: 47%;
+    height: 100vh;
+}
+.user-form h2{
+    display: none;
+}
+.email {
+    width: 206%;
+}
+.user-name input,.student-id input,.email input{
+    height: 7vh;
+    width: 45%;
+    margin-top: 3%;
+}
+.feedback input{
+    height: 25vh;
+    margin-top: 3%;
+    width: 93%;
+}
+.btn{
+    margin-top: 6%;
+    height: 7vh;
+    width: 95%;
+    border-radius:20px ;
+    border: 2px solid teal;
+    background-color:teal;
+    color: white;
+}
+.footer{
+    width: 20%;
+    height: 100vh;
+}
+.logo{
+    height: 15%;
+}
+.logo img{
+    padding: 5% 0% 0% 15%;
+    height: 60%;
+}
+.logo p{
+    padding-left: 9%;
+}
+.time-ate{
+    height: 20%;
+}
+.name-food{
+    height: 25%;
+}
+.socail-media{
+    height: 17.3%;
+}
+.socail-media i{
+    padding: 8% 0% 0% 3%;
+    font-size: 30px;
+    color: teal;
+    
+}
+.socail-media p{
+    padding-left: 10%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-right ul{
+        gap: 15%;
+        padding-left: 25%;
+        padding:6% 0% 0% 15%;
+    }
+    .navbar-left img{
+        padding-left: 40px;
+        height: 70%;
+        padding-top: 10%;
+    }
+    .navbar-left p{
+        margin-top: 20%;
+    }
+    .picture img{
+        height: 100%;
+        width: 300%;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .picture{
+        background-color: wheat;
+        height: 50vh;
+    }
+    .user-form{
+        height: 80vh;
+        width: 80%;
+         margin-left: 13%;
+    }
+    .user-name input,.student-id input,.email input,.feedback input{
+        border: 2px solid gray;
+    }
+    .btn{
+        width: 20%;
+        margin-left: 75%;
+        margin-top: 5%;
+    }
+    .footer{
+        padding-top: 8%;
+        display: flex;
+        height: 20vh;
+        width: 100%; 
+        
+        flex-wrap: wrap;
+    }
+    .logo,.time-ate,.name-food,.socail-media{
+        width: 25%;
+        height: 100%;
+    }
+    .logo,.time-ate,.name-food{
+      width: 30%;
+      margin: auto;
+    }
+    .socail-media{
+        margin: auto;
+    }
+    .logo img{
+        padding: 5% 0% 0% 30%;
+        height: 30%;
+    }
+    .logo p{
+        padding-left: 25%;
+    }
+    .user-form h2{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (min-width: 320px) and (max-width: 768px){
+    .navbar{
+        height: 10vh;
+    }
+    .navbar-left img{
+        height: 50%;
+        padding: 10% 0% 0% 10%;
+    }
+    .navbar-left p{
+        font-size: 7px;
+        margin-top: 20%;
+    }
+    .navbar-right ul{
+        font-size: 7px;
+        gap:5%;
+        padding-left: 25%;
+        padding:6% 0% 0% 15%;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .picture{
+        background-color: antiquewhite;
+        height: 50vh;
+        width: 100%;
+    }
+    .picture img{
+        height: 100%;
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .user-form{
+        height: 50vh;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .user-name input,.student-id input,.email input{
+        height: 5vh;
+        width: 40%;
+        margin-top: 1%;
+        border: 2px solid gray;
+    }
+    .user-name{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .student-id{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .email{
+        width: 203%;
+        padding-left: 9%;
+    }
+    .feedback input{
+        height: 20vh;
+        margin-top: 3%;
+        width: 81.1%;
+        margin-left: 9%;
+    }
+
+
+
+
+
+
+    .footer{
+        margin-top: 15%;
+        padding-top: 8%;
+        display: flex;
+        height: 30vh;
+        width: 100%;
+        
+        
+        flex-wrap: wrap;
+    }
+    .logo,.time-ate,.name-food,.socail-media{
+        width: 30%;
+        height: 100%;
+    }
+    .logo,.time-ate,.name-food{
+      width: 30%;
+      margin: auto;
+    }
+    .socail-media{
+        margin: auto;
+    }
+    .logo img{
+        padding: 5% 0% 0% 30%;
+        height: 30%;
+    }
+    .logo p{
+        padding-left: 25%;
+    }
+    .btn{
+        width: 20%;
+        margin-left: 70%;
+        margin-top: 5%;
+    }
+    .user-form h2{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .feedback input{
+        border: 2px solid gray;
+    }
+}
